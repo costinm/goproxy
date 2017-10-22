@@ -2,7 +2,6 @@ package goproxy
 
 import (
 	"crypto/tls"
-	"crypto/x509"
 )
 
 var tlsClientSkipVerify = &tls.Config{InsecureSkipVerify: true}
